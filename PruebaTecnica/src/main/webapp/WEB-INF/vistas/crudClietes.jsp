@@ -89,38 +89,38 @@
                                                 <div class="form-row">
                                                     <div class="form-group col">
                                                         <label>Nombre</label>
-                                                        <input style="width: 85%;" class="form-control" id="id_reg_nombre" name="nombre" placeholder="Ingrese nombre: " type="text"/>
+                                                        <input style="width: 85%;" class="form-control" id="nombreR" name="nombre" placeholder="Ingrese nombre: " type="text"/>
                                                     </div>
                                                     <div class="form-group col">
                                                         <label>Apellido</label>
-                                                        <input class="form-control" id="id_reg_apellido" name="apellido" placeholder="Ingrese apellido: " type="text" />
+                                                        <input class="form-control" id="apellidoR" name="apellido" placeholder="Ingrese apellido: " type="text" />
                                                     </div>
                                                 </div>
                                                 <br>
                                                 <div class="form-row">
                                                     <div class="form-group col">
                                                         <label>Fecha Nacimiento</label>
-                                                        <input style="width: 85%;" class="form-control" id="id_reg_fecha" name="fechaNacimiento" placeholder="Ingrese fecha nacimiento: " type="date" min="1957-12-31" max="2004-12-31" />
+                                                        <input style="width: 85%;" class="form-control" id="fechaR" name="fechaNacimiento" placeholder="Ingrese fecha nacimiento: " type="date" min="1957-12-31" max="2004-12-31" />
                                                     </div>
                                                     <div class="form-group">
                                                         <label>Edad</label>
-                                                        <input class="form-control" id="id_reg_minima" name="edadMinima" type="text" />
+                                                        <input class="form-control" id="minimaR" name="edadMinima" type="text" />
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
                                                     <div class="form-group col">
                                                         <label>Email</label>
-                                                        <input class="form-control" id="id_reg_email" name="email" placeholder="Ingrese email: " type="text"/>
+                                                        <input class="form-control" id="emailR" name="email" placeholder="Ingrese email: " type="text"/>
                                                     </div>
                                                 </div>
                                                 <div class="form-row">
                                                     <div class="form-group col">
                                                         <label>Telefono</label>
-                                                        <input style="width: 85%;" class="form-control" id="id_reg_telefono" name="telefono" placeholder="Ingrese telefono: " type="text"/>
+                                                        <input style="width: 85%;" class="form-control" id="telefonoR" name="telefono" placeholder="Ingrese telefono: " type="text"/>
                                                     </div>
                                                     <div class="form-group col">
                                                         <label>Ciudad</label>
-                                                        <select class="form-control"  id="id_reg_ciudad" name="ciudad">
+                                                        <select class="form-control"  id="ciudadR" name="ciudad">
                                                             <option value=" "><-Seleccione-></option>
                                                         </select>
                                                     </div>
@@ -128,7 +128,7 @@
                                                 <div class="form-group">
                                                     <div class="form-group col">
                                                         <label>Ocupacion</label>
-                                                        <select class="form-control" id="id_reg_ocupacion" name="ocupacion" >
+                                                        <select class="form-control" id="ocupacionR" name="ocupacion" >
                                                             <option value=" "><-Seleccione-></option>
                                                         </select>
                                                     </div>
@@ -164,37 +164,37 @@
                                                 <div class="panel-body">
                                                     <div class="form-group col">
                                                         <label>Documento</label>
-                                                        <input class="form-control" id="id_act_documento" name="documento" placeholder="Ingrese documento: " type="text"/>
+                                                        <input class="form-control" id="documentoA" name="documento" placeholder="Ingrese documento: " type="text"/>
                                                     </div>
                                                     <div class="form-row">
                                                         <div class="form-group col">
                                                             <label>Nombre</label>
-                                                            <input  style="width: 85%;" class="form-control" id="id_act_nombre" name="nombre" placeholder="Ingrese nombre: " type="text"/>
+                                                            <input  style="width: 85%;" class="form-control" id="nombreA" name="nombre" placeholder="Ingrese nombre: " type="text"/>
                                                         </div>
                                                         <div class="form-group col">
                                                             <label>Apellido</label>
-                                                            <input class="form-control" id="id_act_apellido" name="apellido" placeholder="Ingrese apellido: " type="text" />
+                                                            <input class="form-control" id="apellidoA" name="apellido" placeholder="Ingrese apellido: " type="text" />
                                                         </div>
                                                     </div>
                                                     <br>
                                                     <div class="form-row">
                                                         <div class="form-group col">
                                                             <label>Fecha Nacimiento</label>
-                                                            <input style="width: 85%;" class="form-control" id="id_act_fecha" name="fechaNacimiento" placeholder="Ingrese fecha nacimiento: " type="date" min="1957-12-31" max="2004-12-31" />
+                                                            <input style="width: 85%;" class="form-control" id="fechaA" name="fechaNacimiento" placeholder="Ingrese fecha nacimiento: " type="date" min="1957-12-31" max="2004-12-31" />
                                                         </div>
                                                         <div class="form-group col">
                                                             <label>Email</label>
-                                                            <input class="form-control" id="id_act_email" name="email" placeholder="Ingrese email: " type="text"/>
+                                                            <input class="form-control" id="emailA" name="email" placeholder="Ingrese email: " type="text"/>
                                                         </div>
                                                     </div>
                                                     <div class="form-row">
                                                         <div class="form-group col">
                                                             <label>Telefono</label>
-                                                            <input style="width: 85%;" class="form-control" id="id_act_telefono" name="telefono" placeholder="Ingrese telefono: " type="text"/>
+                                                            <input style="width: 85%;" class="form-control" id="telefonoA" name="telefono" placeholder="Ingrese telefono: " type="text"/>
                                                         </div>
                                                         <div class="form-group col">
                                                             <label>Ciudad</label>
-                                                            <select class="js-states form-control"  id="id_act_ciudad" name="ciudad">
+                                                            <select class="js-states form-control"  id="ciudadA" name="ciudad">
                                                                 <option value=" "><-Seleccione-></option>
                                                             </select>
                                                         </div>
@@ -202,7 +202,7 @@
                                                     <div class="form-group">
                                                         <div class="form-group col">
                                                             <label>Ocupacion</label>
-                                                            <select class="form-control" id="id_act_ocupacion" name="ocupacion" >
+                                                            <select class="form-control" id="ocupacionA" name="ocupacion" >
                                                                 <option value=" "><-Seleccione-></option>
                                                             </select>
                                                         </div>
@@ -270,24 +270,24 @@ $("#id_btn_filtrar").click(function(){
 
 $.getJSON("listaOcupacion", {}, function(data){
     $.each(data, function(i, item){
-        $("#id_reg_ocupacion").append("<option value="+item.idOcupacion +">"+item.nombre +"</option>");
-        $("#id_act_ocupacion").append("<option value="+item.idOcupacion +">"+item.nombre +"</option>");
+        $("#ocupacionR").append("<option value="+item.idOcupacion +">"+item.nombre +"</option>");
+        $("#ocupacionA").append("<option value="+item.idOcupacion +">"+item.nombre +"</option>");
     });
 });
 
 $.getJSON("listaCiudad",{},function(data){
     $.each(data, function(i,item){
-        $("#id_reg_ciudad").append("<option value="+item.idCiudad + ">" +item.nombre +"</option>");
-        $("#id_act_ciudad").append("<option value="+item.idCiudad + ">" +item.nombre +"</option>");
+        $("#ciudadR").append("<option value="+item.idCiudad + ">" +item.nombre +"</option>");
+        $("#ciudadA").append("<option value="+item.idCiudad + ">" +item.nombre +"</option>");
     });
 });
 
 
 $(document).ready(function() {
-    $('#id_act_ciudad').select2();
+    $('#ciudadR').select2();
 });
 $(document).ready(function() {
-    $('#id_reg_ciudad').select2();
+    $('#ciudadA').select2();
 });
 
 
@@ -312,26 +312,26 @@ function eliminar(documentoId){
 
 
 function editar(documentoId,nombre,apellido,fechaNacimiento,email,telefono,idCiudad,idOcupacion){
-    $('#id_act_documento').val(documentoId);
-    $('#id_act_nombre').val(nombre);
-    $('#id_act_apellido').val(apellido);
-    $('#id_act_fecha').val(fechaNacimiento);
-    $('#id_act_email').val(email);
-    $('#id_act_telefono').val(telefono);
-    $('#id_act_ciudad').val(idCiudad);
-    $('#id_act_ocupacion').val(idOcupacion);
+    $('#documentoA').val(documentoId);
+    $('#nombreA').val(nombre);
+    $('#apellidoA').val(apellido);
+    $('#fechaA').val(fechaNacimiento);
+    $('#emailA').val(email);
+    $('#telefonoA').val(telefono);
+    $('#ciudadA').val(idCiudad);
+    $('#ocupacionA').val(idOcupacion);
     $('#id_div_modal_actualiza').modal("show");
 }
 
 function limpiarForm(){
-    $('#id_reg_documento').val('');
-    $('#id_reg_nombre').val('');
-    $('#id_reg_apellido').val('');
-    $('#id_reg_fechaNacimiento').val('');
-    $('#id_reg_email').val('');
-    $('#id_reg_telefono').val('');
-    $('#id_reg_ciudad').val('');
-    $('#id_reg_ocupacion').val('');
+    $('#documentoR').val('');
+    $('#nombreR').val('');
+    $('#apellidoR').val('');
+    $('#fechaNacimientoR').val('');
+    $('#emailR').val('');
+    $('#telefonoR').val('');
+    $('#ciudadR').val('');
+    $('#ocupacionR').val('');
 }
 
 $("#id_btn_registra").click(function(){
@@ -404,7 +404,7 @@ function Calular_Fecha()
         },
         fields: {
         	"documento":{
-                selector: "#id_reg_documento",
+                selector: "#documentoR",
                 validators:{
                     notEmpty: {
                          message: 'El documento es obligatorio'
@@ -416,7 +416,7 @@ function Calular_Fecha()
                 }
             },
             "nombre": {
-        		selector : '#id_reg_nombre',
+        		selector : '#nombreR',
                 validators:{
                     notEmpty: {
                          message: 'El nombre es obligatorio'
@@ -429,7 +429,7 @@ function Calular_Fecha()
                 }
             },
             "apellido": {
-        		selector : '#id_reg_apellido',
+        		selector : '#apellidoR',
                 validators:{
                     notEmpty: {
                          message: 'El apellido es obligatorio'
@@ -442,7 +442,7 @@ function Calular_Fecha()
                 }
             },
             "fechaNacimiento":{
-            	 selector: "#id_reg_fecha",
+            	 selector: "#fechaR",
                  validators:{
                 	 notEmpty: {
                          message: 'La fecha es obligatoria'
@@ -454,7 +454,7 @@ function Calular_Fecha()
                  }
             },
             "edadMinima": {
-        		selector : '#id_reg_minima',
+        		selector : '#minimaR',
                 validators: {
                 	notEmpty: {
                         message: 'La edad es un campo obligatorio'
@@ -472,7 +472,7 @@ function Calular_Fecha()
                 }
             },
             "email": {
-        		selector : '#id_reg_email',
+        		selector : '#emailR',
                 validators:{
                     notEmpty: {
                          message: 'El correo es obligatorio'
@@ -483,7 +483,7 @@ function Calular_Fecha()
                 }
             },
             "telefono": {
-        		selector : '#id_reg_telefono',
+        		selector : '#telefonoR',
                 validators: {
                 	notEmpty: {
                         message: 'El telefono es obligatorio'
@@ -494,16 +494,16 @@ function Calular_Fecha()
                     },
                 }
             },
-            "ciudad.name": {
-        		selector : '#id_reg_ciudad',
+            "ciudad.nombre": {
+        		selector : '#ciudadR',
                 validators: {
                 	notEmpty: {
                         message: 'La ciudad esobligatorio'
                     },
                 }
             },
-            "ocupacion.name": {
-        		selector : '#id_reg_ocupacion',
+            "ocupacion.nombre": {
+        		selector : '#ocupacionR',
                 validators: {
                 	notEmpty: {
                         message: 'La ocupacion es obligatorio'
@@ -526,7 +526,7 @@ function Calular_Fecha()
         },
         fields: {
         	"documento":{
-                selector: "#id_act_documento",
+                selector: "#documentoA",
                 validators:{
                     notEmpty: {
                          message: 'El documento es obligatorio'
@@ -538,7 +538,7 @@ function Calular_Fecha()
                 }
             },
             "nombre": {
-        		selector : '#id_act_nombre',
+        		selector : '#nombreA',
                 validators:{
                     notEmpty: {
                          message: 'El nombre es obligatorio'
@@ -551,7 +551,7 @@ function Calular_Fecha()
                 }
             },
             "apellido": {
-        		selector : '#id_act_apellido',
+        		selector : '#apellidoA',
                 validators:{
                     notEmpty: {
                          message: 'El apellido es obligatorio'
@@ -564,7 +564,7 @@ function Calular_Fecha()
                 }
             },
             "fechaCumpelanos":{
-            	 selector: "#id_act_fecha",
+            	 selector: "#fechaA",
                  validators:{
                 	 notEmpty: {
                          message: 'La fecha es obligatoria'
@@ -576,7 +576,7 @@ function Calular_Fecha()
                  }
             },
             "email": {
-        		selector : '#id_act_email',
+        		selector : '#emailA',
                 validators:{
                     notEmpty: {
                          message: 'El correo es obligatorio'
@@ -587,7 +587,7 @@ function Calular_Fecha()
                 }
             },
             "telefono": {
-        		selector : '#id_act_telefono',
+        		selector : '#telefonoA',
                 validators: {
                 	notEmpty: {
                         message: 'El telefono es obligatorio'
@@ -598,16 +598,16 @@ function Calular_Fecha()
                     },
                 }
             },
-            "ciudad.name": {
-        		selector : '#id_act_ciudad',
+            "ciudad.nombre": {
+        		selector : '#ciudadA',
                 validators: {
                 	notEmpty: {
                         message: 'La ciudad esobligatorio'
                     },
                 }
             },
-            "ocupacion.name": {
-        		selector : '#id_act_ocupacion',
+            "ocupacion.nombre": {
+        		selector : '#iocupacionA',
                 validators: {
                 	notEmpty: {
                         message: 'La ocupacion es obligatorio'
